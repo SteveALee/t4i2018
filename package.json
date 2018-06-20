@@ -1,0 +1,25 @@
+{
+  "name": "t4i2018",
+  "version": "1.0.0",
+  "description": "Website for t4i2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveALee/t4i2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteveALee/t4i2018/issues"
+  },
+  "homepage": "https://github.com/SteveALee/t4i2018#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "serve": "^9.1.0"
+  }
+}
