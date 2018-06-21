@@ -39,7 +39,9 @@
 	});
 
 	jQuery(window).keyup(function () {
+		if (!$('.mu-navbar').hasClass('mu-nav-show')) {
 			$('.mu-navbar').addClass('mu-nav-show');
+		}
 	});
 
 
@@ -86,7 +88,7 @@
 	});
 
 	// Bind to scroll
-	jQuery(window).scroll(function(){
+	/* jQuery(window).scroll(function(){
 	   // Get container scroll position
 	   var fromTop = $(this).scrollTop()+topMenuHeight;
 	   
@@ -107,7 +109,7 @@
 	         .end().filter("[href=\\#"+id+"]").parent().addClass("active");
 	   }           
 	})
-
+*/
 
 	
 	/* ----------------------------------------------------------- */
