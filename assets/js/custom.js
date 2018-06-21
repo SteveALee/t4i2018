@@ -29,19 +29,21 @@
 	/* ----------------------------------------------------------- */
 
 
-	jQuery(window).bind('scroll', function () {
+/*	jQuery(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
-        $('.mu-navbar').addClass('mu-nav-show');
-        
-	    } else {
+				$('.mu-navbar').addClass('mu-nav-show');
+		  } else {
 	        $('.mu-navbar').removeClass('mu-nav-show');
 	    }
 	});
-
+*/
 	jQuery(window).keyup(function () {
 		if (!$('.mu-navbar').hasClass('mu-nav-show')) {
 			$('.mu-navbar').addClass('mu-nav-show');
-		}
+			var ist = $('a[href=\'#mu-hero\']');
+			ist.focus();
+        
+	  	}
 	});
 
 
@@ -63,7 +65,7 @@
 	/* ----------------------------------------------------------- */ 
 
 	 //MENU SCROLLING WITH ACTIVE ITEM SELECTED
-
+/* 
 	// Cache selectors
 	var lastId,
 	topMenu = $(".mu-menu"),
@@ -88,7 +90,7 @@
 	});
 
 	// Bind to scroll
-	/* jQuery(window).scroll(function(){
+	jQuery(window).scroll(function(){
 	   // Get container scroll position
 	   var fromTop = $(this).scrollTop()+topMenuHeight;
 	   
@@ -164,6 +166,8 @@
 	/* ----------------------------------------------------------- */
 
 		$('.mu-speakers-slider').slick({
+			accessibility:false,
+			focusOnSelect:true,
 		  slidesToShow: 4,
 		  responsive: [
 		    {

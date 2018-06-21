@@ -10,12 +10,25 @@ Author URI : http://www.markups.io/
 	background-color: #e72e4c;/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2fa4de, #e72e4c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2fa4de, #e72e4c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
-a { 
+html a { 
 	color: #e72e4c;  
 	text-decoration: underline;
+}
+
+html a:focus{
+	border-width: 2.5px;
+	border-style: dashed;
+	border-color:  #e72e4c;
+}
+html a:focus, html a:hover {
+	color: #c70526;
+}
+button.slick-arrow:focus {
+	border-width: 2.5px;
+	border-style: dashed;
+	border-color: black;
 }
 
 .mu-primary-btn:hover,
@@ -63,7 +76,9 @@ a {
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #e72e4c;
+/*	border: 1px solid #e72e4c;*/
+	border-width: 2.5px;
+	border-style: dashed;
 	color: #e72e4c;
 }
 
