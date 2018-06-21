@@ -13,6 +13,11 @@ Author URI : http://www.markups.io/
 
 }
 
+a { 
+	color: #e72e4c;  
+	text-decoration: underline;
+}
+
 .mu-primary-btn:hover,
 .mu-primary-btn:focus,
 .mu-copy-right a:hover,
