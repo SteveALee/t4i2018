@@ -31,6 +31,14 @@ button.slick-arrow:focus {
 	border-color: white;
 }
 
+/* keep chekers happy */
+.mu-hero-featured-content h1,
+.mu-hero-featured-content h2,
+.mu-video-area h1 {
+	background:#a80420
+}
+
+
 .mu-primary-btn:hover,
 .mu-primary-btn:focus,
 .mu-copy-right a:hover,
