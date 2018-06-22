@@ -35,7 +35,16 @@ button.slick-arrow:focus {
 .mu-hero-featured-content h1,
 .mu-hero-featured-content h2,
 .mu-video-area h2 {
-	background:#a80420
+	background:#a80420;
+	border-radius:3px;
+}
+
+.mu-hero-featured-content h1,
+.mu-hero-featured-content h2,
+.mu-video-area h2,
+.mu-event-date-line,
+.logo { 
+border-radius:3px;
 }
 
 
