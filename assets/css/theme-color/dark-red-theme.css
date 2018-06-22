@@ -28,7 +28,7 @@ html a:focus, html a:hover {
 button.slick-arrow:focus {
 	border-width: 2.5px;
 	border-style: dashed;
-	border-color: black;
+	border-color: white;
 }
 
 .mu-primary-btn:hover,
